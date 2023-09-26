@@ -1,5 +1,7 @@
 require 'govuk_tech_docs'
 
+set :relative_links, true
+
 GovukTechDocs.configure(self)
 
 helpers do
